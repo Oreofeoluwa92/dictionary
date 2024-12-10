@@ -121,8 +121,8 @@ void drawHistograms(const DICTION& d) {
     }
     std::cout << std::endl; // End of the line for the lowercase letter
     std::cout << std::endl;
-
-   //for (char c = 'a'; c <= 'z'; c++) {
+     }
+   for (char c = 'a'; c <= 'z'; c++) {
     // Handle lowercase letters
     auto it_lower = d.wordFreq.find(c);
     std::cout << c << " | "; // Print lowercase letter
